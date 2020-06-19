@@ -22,8 +22,8 @@ php artisan migrate
 
 ## Local Development Setup Instructions
  
-- `composer dump-autoload` - Generate the classmap, so the new files are recognized
-- `php artisan migrate` - Migrate and seed the database
+- `composer install` - install dependencies
+- `php artisan migrate` - Migrate database
 - `npm install` - Install NPM packages. Check if Node.js is installed with `npm -v`
 - `npm run dev` - Compile and build. If you get first time error, run it again.
 - `php artisan serve` - Run the local test server
